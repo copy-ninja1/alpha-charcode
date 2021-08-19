@@ -1,4 +1,4 @@
-# shebang-regex
+# alpha-charcode
 
 > Generate alphabets
 
