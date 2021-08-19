@@ -1,6 +1,6 @@
 {
   "name": "alpha-beta",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A Node.js module that Generates alphabets",
   "main": "index.js",
   "scripts": {
