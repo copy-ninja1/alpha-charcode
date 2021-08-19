@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "description": "A Node.js module that Generates alphabets",
+  "private": false,
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -28,7 +29,7 @@
   ],
   "keywords": [
     "Alphabets",
-    "random character",
+    "random-character",
     "string"
   ]
 }
