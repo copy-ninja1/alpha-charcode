@@ -5,7 +5,7 @@
 ## Install
 
 ```
-$ npm install alpha-beta
+$ npm install alpha-charcode
 ```
 
 ## Usage

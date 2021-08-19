@@ -1,5 +1,5 @@
 {
-  "name": "alpha-beta",
+  "name": "alpha-charcode",
   "version": "1.0.0",
   "license": "MIT",
   "description": "A Node.js module that Generates alphabets",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/copy-ninja1/alpha-beta.git"
+    "url": "git+https://github.com/copy-ninja1/alpha-charcode.git"
   },
   "author": {
     "name": "Uchewa Emmanuel k (copyninja)",
@@ -18,9 +18,9 @@
     "url": "https://github.com/copy-ninja1"
   },
   "bugs": {
-    "url": "https://github.com/copy-ninja1/alpha-beta/issues"
+    "url": "https://github.com/copy-ninja1/alpha-charcode/issues"
   },
-  "homepage": "https://github.com/copy-ninja1/alpha-beta#readme",
+  "homepage": "https://github.com/copy-ninja1/alpha-charcode#readme",
   "devDependencies": {
     "jest": "^27.0.6"
   },
