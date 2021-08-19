@@ -1,6 +1,6 @@
 {
   "name": "alpha-charcode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "description": "A Node.js module that Generates alphabets",
   "private": false,
