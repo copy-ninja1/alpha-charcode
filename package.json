@@ -1,6 +1,7 @@
 {
   "name": "alpha-beta",
   "version": "1.0.0",
+  "license": "MIT",
   "description": "A Node.js module that Generates alphabets",
   "main": "index.js",
   "scripts": {
@@ -10,14 +11,24 @@
     "type": "git",
     "url": "git+https://github.com/copy-ninja1/alpha-beta.git"
   },
-  "keywords": [],
-  "author": "uchewa emmanuel <emmajnr1000@gmail.com>",
-  "license": "ISC",
+  "author": {
+    "name": "Uchewa Emmanuel k (copyninja)",
+    "email": "emmajnr1000@gmail.com",
+    "url": "https://github.com/copy-ninja1"
+  },
   "bugs": {
     "url": "https://github.com/copy-ninja1/alpha-beta/issues"
   },
   "homepage": "https://github.com/copy-ninja1/alpha-beta#readme",
   "devDependencies": {
     "jest": "^27.0.6"
-  }
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "Alphabets",
+    "random character",
+    "string"
+  ]
 }
