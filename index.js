@@ -31,31 +31,15 @@ function shuffle(array) {
     return array;
 }
 
-// const alphaBeta = {
-//     alphabets: [],
-//     call: () => {
-//         this.alphabets = alphabets()
-//         return this
-//     },
-
-// }
-
-// function AlphaBeta(c) {
-//     this._alphabets = alphabets()
-// }
-
-// AlphaBeta.prototype.random = function () {
-//     this._random = shuffle(this._alphabets)
-//     return this
-// }
 class AlphaBeta {
     constructor() {
         this.value = alphabets();
     }
-
+    //call get the alphabets
     call() {
         return this.value;
     }
+    //random randomize the alphabets
     random() {
         this.value = shuffle(this.value)
         return this.value
