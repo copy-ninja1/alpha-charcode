@@ -31,14 +31,39 @@ function shuffle(array) {
     return array;
 }
 
-module.exports = {
-    call: () => {
-        return alphabets()
-    },
-    random: () => {
-        return shuffle(alphabets())
+// const alphaBeta = {
+//     alphabets: [],
+//     call: () => {
+//         this.alphabets = alphabets()
+//         return this
+//     },
+
+// }
+
+// function AlphaBeta(c) {
+//     this._alphabets = alphabets()
+// }
+
+// AlphaBeta.prototype.random = function () {
+//     this._random = shuffle(this._alphabets)
+//     return this
+// }
+class AlphaBeta {
+    constructor() {
+        this.value = alphabets();
     }
+
+    call() {
+        return this.value;
+    }
+    random() {
+        this.value = shuffle(this.value)
+        return this.value
+    }
+
 }
 
+module.exports = new AlphaBeta()
 
-// 
+// module.exports = new AlphaBeta
+//
