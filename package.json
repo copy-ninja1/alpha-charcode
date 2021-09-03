@@ -4,9 +4,10 @@
   "license": "MIT",
   "description": "A Node.js module that Generates alphabets",
   "private": false,
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,9 @@
   },
   "homepage": "https://github.com/copy-ninja1/alpha-charcode#readme",
   "devDependencies": {
-    "jest": "^27.0.6"
+    "jest": "^27.0.6",
+    "webpack": "^5.51.2",
+    "webpack-cli": "^4.8.0"
   },
   "files": [
     "index.js"
